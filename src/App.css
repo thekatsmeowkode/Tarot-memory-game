@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Rye-Regular';
+  src: local('Rye-Regular'),
+    url('./fonts/Rye-Regular.ttf') format('truetype');
+}
+
+* {margin:0;
+padding:0;
+font-family: 'Rye-Regular', 'Times New Roman', Times, serif}
+
+.big-container {
+  background-image: linear-gradient(to top, #870000, #291007);
+  height: 100vh;
+}
+
+.header {
+  padding: 1rem;
+  display:flex;
+  font-size: 4rem;
+  justify-content: space-around;
+  align-items:center;
+}
+
+#title-text {
+  font-size: 100px;
+}
+
+.scoreboard {
+  height: 5rem;
+  width: 40%;
+}
+
+.score-text {
+  font-size: 2rem;
+}
+
+.score-text-container {
+  display:flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card-container {
+  padding:1rem;
+}
+
+img {
+  height: 300px;
+  cursor:pointer;
+  pointer-events: all;
+}
+
+.first-row {
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows:1fr 1fr
+}
